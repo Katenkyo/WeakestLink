@@ -18,7 +18,7 @@ public class PlayerFactory {
         playerCreators.put(MedianPlayer.class, MedianPlayer::new);
         playerCreators.put(TheCult.class, TheCult::new);
         playerCreators.put(AntiExtremist.class, AntiExtremist::new);
-        //playerCreators.put(ApproximatePosition.class, ApproximatePosition::new);
+        playerCreators.put(ApproximatePosition.class, ApproximatePosition::new);
         playerCreators.put(Coward.class, Coward::new);
         playerCreators.put(BridgeBurner.class, BridgeBurner::new);
         playerCreators.put(FixatedPlayer.class, FixatedPlayer::new);
